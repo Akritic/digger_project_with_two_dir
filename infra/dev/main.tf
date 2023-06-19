@@ -1,3 +1,3 @@
 
-resource "null_resource" "test7_dev" {
+resource "null_resource" "test7_dev" xxx {
 }
