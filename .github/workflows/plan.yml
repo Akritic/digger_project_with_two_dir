@@ -34,7 +34,7 @@ jobs:
           aws-region: us-east-1
 
       - name: digger tfrun
-        uses: diggerhq/digger@prerelease-v0.1.30
+        uses: diggerhq/digger@vo.1.31-pre
         env:
           GITHUB_CONTEXT: ${{ toJson(github) }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
